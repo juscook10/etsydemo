@@ -33,6 +33,12 @@ gem 'autoprefixer-rails'
 # paperclip gem
 gem "paperclip", "~> 4.2"
 
+#paperclip-dropbox gem
+gem "paperclip-dropbox", ">= 1.1.7"
+
+#Figaro gem
+gem "figaro"
+
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
